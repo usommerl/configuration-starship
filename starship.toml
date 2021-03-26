@@ -1,0 +1,29 @@
+add_newline = false
+
+[character]
+success_symbol = "[>](bold fg:245)"
+error_symbol = "[✗](bold red)"
+
+[directory]
+style= "bold fg:245"
+
+[git_branch]
+truncation_length = 40
+style= "bold yellow"
+
+[git_status]
+style = 'bold fg:245'
+ahead = "[↑](bold cyan)$count"
+behind = "[↓](bold cyan)$count"
+stashed = "[@](bold cyan)$count"
+diverged = "[↕](bold red)"
+modified = '[M](bold red)$count'
+staged = '[M](bold green)$count'
+untracked = '[?](bold red)$count'
+deleted = "[D](bold red)$count"
+
+[java]
+disabled = true
+
+[lua]
+disabled = true

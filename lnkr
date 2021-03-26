@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+install() {
+  link "$REPOSITORY_ROOT/starship.toml" "${XDG_CONFIG_HOME:-$HOME/.config}/starship.toml"
+}
+
+source <(curl -Lfs https://git.io/lnkr)
