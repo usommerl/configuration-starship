@@ -27,3 +27,6 @@ disabled = true
 
 [lua]
 disabled = true
+
+[package]
+disabled = true
