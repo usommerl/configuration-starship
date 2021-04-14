@@ -5,7 +5,8 @@ success_symbol = "[>](bold yellow)"
 error_symbol = "[✗](bold red)"
 
 [directory]
-style= "bold yellow"
+style = "bold yellow"
+truncate_to_repo = false
 
 [git_branch]
 truncation_length = 40
