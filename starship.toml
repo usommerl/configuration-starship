@@ -63,3 +63,6 @@ staged = '[M](bold green)$count'
 untracked = '[?](bold red)$count'
 deleted = "[D](bold red)$count"
 
+[docker_context]
+symbol="  "
+only_with_files=false
