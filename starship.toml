@@ -19,6 +19,7 @@ $kotlin\
 $python\
 $ruby\
 $rust\
+$scala\
 $terraform\
 $nix_shell\
 $conda\
@@ -47,6 +48,7 @@ truncate_to_repo = false
 
 [git_branch]
 truncation_length = 40
+symbol = " "
 style= "bold yellow"
 
 [git_status]
@@ -63,3 +65,60 @@ deleted = "[D](bold red)$count"
 [docker_context]
 symbol="  "
 only_with_files=false
+
+[aws]
+symbol = "  "
+[buf]
+symbol = " "
+[c]
+symbol = " "
+[conda]
+symbol = " "
+[dart]
+symbol = " "
+[elixir]
+symbol = " "
+[elm]
+symbol = " "
+[fossil_branch]
+symbol = " "
+[golang]
+symbol = " "
+[guix_shell]
+symbol = " "
+[haskell]
+symbol = " "
+[haxe]
+symbol = "⌘ "
+[hg_branch]
+symbol = " "
+[java]
+symbol = " "
+[julia]
+symbol = " "
+[lua]
+symbol = " "
+[memory_usage]
+symbol = " "
+[meson]
+symbol = "喝 "
+[nim]
+symbol = " "
+[nix_shell]
+symbol = " "
+[nodejs]
+symbol = " "
+[package]
+symbol = " "
+[python]
+symbol = " "
+[rlang]
+symbol = "ﳒ "
+[ruby]
+symbol = " "
+[rust]
+symbol = " "
+[scala]
+symbol = " "
+[spack]
+symbol = "🅢 "
