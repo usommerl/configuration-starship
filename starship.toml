@@ -19,7 +19,6 @@ $kotlin\
 $python\
 $ruby\
 $rust\
-$scala\
 $terraform\
 $nix_shell\
 $conda\
