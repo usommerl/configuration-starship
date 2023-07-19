@@ -65,6 +65,11 @@ deleted = "[D](bold red)$count"
 symbol="  "
 only_with_files=false
 
+[custom.direnv]
+style = "fg:yellow bold"
+format = "[\\[direnv\\]]($style) "
+when = "printenv DIRENV_FILE"
+
 [aws]
 symbol = "  "
 [buf]
