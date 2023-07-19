@@ -67,7 +67,8 @@ only_with_files=false
 
 [custom.direnv]
 style = "fg:yellow bold"
-format = "[\\[direnv\\]]($style) "
+symbol = "\\$"
+format = "[${symbol}direnv]($style) "
 when = "printenv DIRENV_FILE"
 
 [aws]
@@ -109,6 +110,7 @@ symbol = "喝 "
 [nim]
 symbol = " "
 [nix_shell]
+format = "via [$symbol$state]($style) "
 symbol = " "
 [nodejs]
 symbol = " "
