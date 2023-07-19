@@ -68,7 +68,7 @@ only_with_files=false
 [custom.direnv]
 style = "fg:yellow bold"
 symbol = "\\$"
-format = "[${symbol}direnv]($style) "
+format = "with [${symbol}direnv]($style) "
 when = "printenv DIRENV_FILE"
 
 [aws]
