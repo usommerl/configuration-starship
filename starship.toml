@@ -65,6 +65,9 @@ deleted = "[D](bold red)$count"
 symbol="  "
 only_with_files=false
 
+# Adopted from
+# - https://github.com/direnv/direnv/issues/68#issuecomment-1368441542
+# - https://github.com/direnv/direnv/issues/68#issuecomment-1535044690
 [custom.direnv]
 style = "fg:yellow bold"
 symbol = "\\$"
